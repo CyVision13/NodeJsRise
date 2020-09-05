@@ -4,7 +4,8 @@
   "description": "Learning Nodejs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/CyVision13/NodeJsRise/issues"
   },
-  "homepage": "https://github.com/CyVision13/NodeJsRise#readme"
+  "homepage": "https://github.com/CyVision13/NodeJsRise#readme",
+  "dependencies": {
+    "nodemon": "^2.0.4",
+    "slugify": "^1.4.5"
+  }
 }
